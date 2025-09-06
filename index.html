@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Todo List</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-</head>
+    <link rel="icon" type="image/svg+xml" href="/todo.jpg" />
 
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header class="navbar">
-        <div class="logo">📝 TodoMate</div>
+      <div class="logo">📝 TodoMate</div>
     </header>
 
     <main class="wrapper">
-        <div class="todo-container">
-            <h2>Add Your Task</h2>
-            <div class="todo-input-group">
-                <input type="text" id="todo-input" class="todo-input" placeholder="Enter your todo...">
-                <button class="todo-btn" id="todo-btn">+</button>
-            </div>
-            <span id="errShow" class="error-text"></span>
-            <ol class="todo-output" id="todo-output"></ol>
-            <span id="notFound" class="not-found">Todos Not Found!</span>
+      <div class="todo-container">
+        <h2>Add Your Task</h2>
+        <div class="todo-input-group">
+          <input
+            type="text"
+            id="todo-input"
+            class="todo-input"
+            placeholder="Enter your todo..."
+          />
+          <button class="todo-btn" id="todo-btn">+</button>
         </div>
+        <span id="errShow" class="error-text"></span>
+        <ol class="todo-output" id="todo-output"></ol>
+        <span id="notFound" class="not-found">Todos Not Found!</span>
+      </div>
     </main>
 
     <footer class="footer">
-        <p>© 2025 TodoMate. Built with ❤️ by Fareed</p>
+      <p>© 2025 TodoMate. Built with ❤️ by Fareed</p>
     </footer>
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
